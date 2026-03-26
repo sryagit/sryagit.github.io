@@ -15,6 +15,10 @@
     padding:15px 20px 15px 80px;
     background:#f3f3f3;
     border-bottom:1px solid #ddd;
+
+    position: sticky;   /* navbar sticks when scrolling */
+    top: 0;             /* sticks at the top */
+    z-index: 1000;      /* prevents overlap issues */
     }
 
     /* Logo */
@@ -96,6 +100,8 @@
         }
 
     }
-
-
+ 
+    section {
+        scroll-margin-top: 65px;
+    }
 
