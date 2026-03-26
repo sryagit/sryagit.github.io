@@ -2,9 +2,8 @@
     /* Section */
     #projects-section {
     text-align: center;
-    padding: 0px;
-    margin: 50px;
-
+    padding-top: 50px;
+    margin: 50px 5px 0px 5px;
     }
 
     #projects-section h1 {
@@ -98,23 +97,18 @@
     }
 
 
-
     /* Mobile */
     @media (max-width: 425px) {
-
 
     }
 
     /* Tablets */
     @media (min-width: 426px) and (max-width: 768px) {
 
-
     }
 
     /* laptops & Desktops */
     @media (min-width: 769px) and (max-width: 1024px) {
 
-
     }
-
 
