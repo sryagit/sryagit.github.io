@@ -8,7 +8,7 @@
     /* Section */
     #skills-section {
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
     margin: 50px ;
     }
 
@@ -56,28 +56,22 @@
     /* Mobile */
     @media (max-width: 426px) {
     #skills-section {
-    padding: 50px 0px;
     margin: 0px ;
     }
     }
 
     /* Tablets */
     @media (min-width: 427px) and (max-width: 768px) {
-    #skills-section {
-    padding: 50px 0px;
-    }
+
     }
 
     /* laptops */
     @media (min-width: 769px) and (max-width: 1024px) {
-
 
     }
 
     /* Desktops */
     @media (min-width: 1025px) {
 
-
     }
-
 
