@@ -1,0 +1,101 @@
+/*      Nav     */
+    /* Reset */
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Navbar container */
+    #navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px 15px 80px;
+    background:#f3f3f3;
+    border-bottom:1px solid #ddd;
+    }
+
+    /* Logo */
+    .logo{
+    font-size:20px;
+    font-weight:bold;
+    }
+
+    /* Menu list */
+    ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+    }
+
+    /* Links */
+    ul li a{
+    text-decoration:none;
+    color:#666;
+    padding:8px 12px;
+    border-radius:5px;
+    }
+
+    ul li a:hover{
+    background:#ddd;
+    }
+
+    ul li a.active{
+    background:#04AA6D;
+    color:white;
+    }
+
+    /* Menu icon (hidden in desktop) */
+    .menu-icon{
+    display:none;
+    font-size:24px;
+    cursor:pointer;
+    }
+
+    /* Mobile view */
+    @media (max-width:767px){
+
+        #navbar{
+            padding:15px 40px;
+        }
+
+        ul{
+            position:absolute;
+            top:60px;
+            right:0;
+            width:200px;
+            background:#f3f3f3;
+            flex-direction:column;
+            padding:20px;
+            display:none;
+        }
+
+        ul.show{
+            display:flex;
+        }
+
+        .menu-icon{
+            display:block;
+        }
+
+    }
+
+    /* Tablets & laptops */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        ul{
+            gap:10px;
+        }
+    }
+
+    /* Desktops */
+    @media (min-width: 1024px) {
+        #navbar{
+            padding:15px 40px 15px 80px;
+        }
+
+    }
+
+
+

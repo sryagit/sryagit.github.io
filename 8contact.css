@@ -1,0 +1,123 @@
+/* Contact */
+    /* Section */
+    #contact-section {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    }
+
+    #contact-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    }
+
+    #contact-section p {
+    color: gray;
+    margin-bottom: 40px;
+    }
+
+    /* Layout */
+    .contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    }
+
+    /* LEFT SIDE (Cards) */
+    .contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+
+    /* Card */
+    .contact-card {
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact-card h3 {
+    margin: 10px 0;
+    }
+
+    .contact-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    }
+
+    .contact-card a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    }
+
+    /* RIGHT SIDE (Form) */
+    .contact-right {
+    width: 320px;
+    }
+
+    /* Inputs */
+    .input-box {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    }
+
+    /* Textarea */
+    textarea {
+    height: 120px;
+    resize: none;
+    }
+
+    /* Button */
+    .btn {
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    .btn:hover {
+    background: #333;
+    }
+
+
+
+    /* Mobile */
+    @media (max-width: 426px) {
+        #contact-section {
+        padding: 50px 0px;
+        }
+    }
+
+    /* Tablets */
+    @media (min-width: 427px) and (max-width: 768px) {
+        #contact-section {
+        padding: 50px 0px;
+        }
+    }
+
+    /* laptops */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        #contact-section {
+        padding: 50px 0px;
+        }
+    }
+
+    /* Desktops */
+    @media (min-width: 1025px) {
+
+
+    }
+
+
